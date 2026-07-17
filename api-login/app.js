@@ -19,4 +19,4 @@ app.get('/', (req, res) => {
 
 app.listen(PORT, () => {
     console.log(`Servidor login corriendo en http://localhost:${PORT}`);
-});
+});// API Login - Microservicio de autenticación
