@@ -1,0 +1,22 @@
+const express = require('express');
+const cors = require('cors');
+const dotenv = require('dotenv');
+const loginRoutes = require('./routes/login');
+
+dotenv.config();
+
+const app = express();
+const PORT = process.env.PORT || 3000;
+
+app.use(cors());
+app.use(express.json());
+
+app.use(loginRoutes);
+
+app.get('/', (req, res) => {
+    res.json({ mensaje: 'API Login funcionando' });
+});
+
+app.listen(PORT, () => {
+    console.log(`Servidor login corriendo en http://localhost:${PORT}`);
+});

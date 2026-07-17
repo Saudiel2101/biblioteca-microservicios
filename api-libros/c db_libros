@@ -1,0 +1,29 @@
+                                                                          List of databases
+         Name         |       Owner        | Encoding | Locale Provider |   Collate   |    Ctype    | Locale | ICU Rules |             Access privileges             
+----------------------+--------------------+----------+-----------------+-------------+-------------+--------+-----------+-------------------------------------------
+ biblioteca_angulardb | biblioteca_angular | UTF8     | libc            | en_US.UTF-8 | en_US.UTF-8 |        |           | =Tc/biblioteca_angular                   +
+                      |                    |          |                 |             |             |        |           | biblioteca_angular=CTc/biblioteca_angular
+ biblioteca_jq        | fdelgado           | UTF8     | libc            | en_US.UTF-8 | en_US.UTF-8 |        |           | =Tc/fdelgado                             +
+                      |                    |          |                 |             |             |        |           | fdelgado=CTc/fdelgado
+ db_autores           | postgres           | UTF8     | libc            | en_US.UTF-8 | en_US.UTF-8 |        |           | =Tc/postgres                             +
+                      |                    |          |                 |             |             |        |           | postgres=CTc/postgres                    +
+                      |                    |          |                 |             |             |        |           | admin=CTc/postgres
+ db_libros            | postgres           | UTF8     | libc            | en_US.UTF-8 | en_US.UTF-8 |        |           | =Tc/postgres                             +
+                      |                    |          |                 |             |             |        |           | postgres=CTc/postgres                    +
+                      |                    |          |                 |             |             |        |           | admin=CTc/postgres
+ db_prestamos         | postgres           | UTF8     | libc            | en_US.UTF-8 | en_US.UTF-8 |        |           | =Tc/postgres                             +
+                      |                    |          |                 |             |             |        |           | postgres=CTc/postgres                    +
+                      |                    |          |                 |             |             |        |           | admin=CTc/postgres
+ db_relaciones        | postgres           | UTF8     | libc            | en_US.UTF-8 | en_US.UTF-8 |        |           | =Tc/postgres                             +
+                      |                    |          |                 |             |             |        |           | postgres=CTc/postgres                    +
+                      |                    |          |                 |             |             |        |           | admin=CTc/postgres
+ login_db             | postgres           | UTF8     | libc            | en_US.UTF-8 | en_US.UTF-8 |        |           | 
+ postgres             | postgres           | UTF8     | libc            | en_US.UTF-8 | en_US.UTF-8 |        |           | 
+ react_biblioteca     | react_user         | UTF8     | libc            | en_US.UTF-8 | en_US.UTF-8 |        |           | =Tc/react_user                           +
+                      |                    |          |                 |             |             |        |           | react_user=CTc/react_user
+ template0            | postgres           | UTF8     | libc            | en_US.UTF-8 | en_US.UTF-8 |        |           | =c/postgres                              +
+                      |                    |          |                 |             |             |        |           | postgres=CTc/postgres
+ template1            | postgres           | UTF8     | libc            | en_US.UTF-8 | en_US.UTF-8 |        |           | =c/postgres                              +
+                      |                    |          |                 |             |             |        |           | postgres=CTc/postgres
+(11 rows)
+
