@@ -76,3 +76,9 @@ npm start
 cd api-prestamos
 npm install
 npm start
+## Tecnologías utilizadas
+- Node.js
+- Express
+- PostgreSQL
+- Bootstrap 5
+- jQuery, Angular, React
