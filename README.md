@@ -82,3 +82,5 @@ npm start
 - PostgreSQL
 - Bootstrap 5
 - jQuery, Angular, React
+
+## Capturas de pantalla
